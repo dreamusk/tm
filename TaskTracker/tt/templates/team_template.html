@@ -1,0 +1,15 @@
+<!-- team_template.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Team Data</title>
+</head>
+<body>
+    <a href="https://ardent.greythr.com/uas/portal/auth/login?login_challenge=3598278d2aa94c4d925cbf0291ae09f5"><h1>Team Data</h1></a>
+    <ul>
+        {% for team in teams %}
+            <li>{{ team.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
